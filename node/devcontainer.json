@@ -1,0 +1,10 @@
+{
+    "name": "Reusable Node development environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    "remoteUser": "node"
+}
