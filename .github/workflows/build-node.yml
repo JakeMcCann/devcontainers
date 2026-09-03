@@ -31,6 +31,6 @@ jobs:
       - name: Build and publish Node dev container
         uses: devcontainers/ci@v0.3
         with:
-          configFile: node/devcontainer.json
+          configFile: node/.devcontainer/devcontainer.json
           imageName: ghcr.io/jakemccann/devcontainers-node
           push: always
