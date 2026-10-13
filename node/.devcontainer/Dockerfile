@@ -4,5 +4,5 @@ RUN apt-get update \
     && apt-get install --yes --no-install-recommends ripgrep \
     && rm -rf /var/lib/apt/lists/*
 
-RUN su node -c "umask 0002 && npm install --global opencode-ai" \
+RUN su node -c "umask 0002 && npm install --global @opencode/cli@latest" \
     && su node -c "opencode --version"
